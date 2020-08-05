@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+
+	<bean name="school" class="com.spring.core.SpringCore.list.School">
+		<property name="schoolname">
+			<value>Oakridge</value>
+		</property>
+
+		<property name="subjects">
+			<list>
+				<value>Social</value>
+				<value>Science</value>
+				<value>Telugu</value>
+				<value>Hindi</value>
+				<value>Maths</value>
+			</list>
+		</property>
+
+
+
+	</bean>
+
+</beans>
